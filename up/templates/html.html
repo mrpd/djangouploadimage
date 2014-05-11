@@ -1,0 +1,8 @@
+<!DOCTYPE HTML>
+<body>
+	this is moved mnodev
+	{% for pic in context%}
+		<li><a href="{{ pic.fileupp.url }}">{{ pic.fileupp.name }}</a></li>
+		<img src="{{ pic.fileupp.url }}" />
+	{%endfor%}
+</body>
